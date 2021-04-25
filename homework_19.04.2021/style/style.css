@@ -1,0 +1,32 @@
+.conteiner div{
+    padding: 10px;
+    border: 1px solid silver;
+    text-align: center;
+}
+.conteiner, .conteiner_2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.conteiner_2{
+    flex: 2;
+    height: 500px;
+}
+.header, .footer {
+    width: 100%;
+}
+.foto{
+    flex: 1;
+    height:500px;
+    background-image: url("../img/nMwxnbGAiH0.jpg");
+    background-size: cover;
+}
+.fio{
+    width: 100%;
+}
+.info, .reaction {
+    flex: 1;
+    height: 450px;
+    text-align: left;
+}
