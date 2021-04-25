@@ -1,0 +1,35 @@
+table, tr{
+    border: 1px solid black;
+    border-collapse: separate;
+    margin: auto;
+    width: 400px;
+}
+.text{
+    width: 100%;
+    border-spacing: 1;
+}
+.element{
+   width: 100%;
+    text-align: left;
+    border: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.number{
+    font-size: 10px;
+}
+.inside{
+    border: white;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+
